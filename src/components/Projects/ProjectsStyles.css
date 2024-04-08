@@ -1,0 +1,138 @@
+.containe {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 18px 24px;
+    max-width: 345px;
+    margin: 5px;
+    align-items: center;
+
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+
+}
+
+
+.image {
+
+    width: 85%;
+    /* Set the desired width */
+    height: 150px;
+    /* Set the desired height */
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 2.5%;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.ptitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 2.5%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.description {
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    color: antiquewhite;
+    text-align: justify;
+}
+
+.skills {
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    color: white;
+
+}
+
+
+.skill {
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #3e55af 0%, #29549f 100%);
+    width: fit-content;
+    padding: 2px 22px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.links {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #14297a 0%, #132a53 100%);
+    padding: 1px 22px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Add a shadow */
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .ptitle {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .skill {
+        font-size: 20px;
+        padding: 2px 12px;
+    }
+
+    .link {
+        font-size: 20px;
+        padding: 1px 12px;
+    }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Far Away",
+    "imageSrc": "projects/faraway.png",
+    "description": "This project was built to explore and learn React's core concepts, which include components for managing state, props, and children.",
+    "skills": ["HTML", "React", "CSS", "JS"],
+   "GitHub": "https://github.com/Shatlykch/FAR-AWAY",
+    "appSource": "https://farawayap.netlify.app/"
+  },
+   {
+    "title": "CalorieWise Selector",
+    "imageSrc": "projects/demo.png",
+    "description": "CalorieWise Selector helps you make informed food choices by providing calorie information for a wide range of foods",
+    "skills": ["HTML", "CSS", "React", "Node", "JS" ],
+    "GitHub": "https://github.com/Shatlykch/Project-2",
+    "appSource": "https://calorieswiseselector.netlify.app/"
+  },
+  
+  {
+    "title": "Astronomy Photo of the Day",
+    "imageSrc": "projects/project.png",
+    "description": "This simple project archives images and information from NASA's Astronomy Photo of the Day for easy navigation. With full CRUD functionality, users can read, add, edit, and delete information from pre-existing or newly created entries that stick to the familiar format of NASA's API. ",
+    "skills": ["React", "Node", "JS", "Express", "MongoDB" ],
+    "GitHub": "https://github.com/Shatlykch/Project3",
+    "appSource": "https://dashboard.heroku.com/apps/nasa-api-project#"
+  },
+  {
+    "title": "Me n U",
+    "imageSrc": "projects/menu.png",
+    "description": "This project was meticulously designed to not only explore React's core concepts but also to integrate with a backend system.  Through this project, gained a comprehensive understanding of building full-stack applications with React, incorporating backend functionalities for a complete and robust web development experience.",
+    "skills": ["React", "Node", "JS", "Express", "MongoDB" ],
+    "GitHub": "https://github.com/Shatlykch/MEnU-client",
+    "appSource": "https://www.github.com"
+  }
+
+  
+]

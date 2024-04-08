@@ -1,0 +1,59 @@
+.home {
+  color: aliceblue;
+  font-size: 1.4rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 20px;
+}
+
+.typewriter-text {
+  font-family: 'Dancing Script', fantasy;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7%;
+  width: 95%;
+}
+
+.animation {
+  width: 53%;
+}
+
+p {
+  font-size: 50px;
+}
+
+.resume-button {
+  border-radius: 10px;
+  margin-top: 40px;
+  font-size: 2rem;
+  background-color: blueviolet;
+  height: 50px;
+  width: 50%;
+  margin-left: 2%;
+  color: aliceblue;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 5%;
+    width: 95%;
+  }
+
+  .animation {
+    width: 70%;
+  }
+
+  p {
+    font-size: 40px;
+  }
+
+  .resume-button {
+    font-size: 1.5rem;
+    height: 40px;
+  }
+}

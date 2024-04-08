@@ -1,0 +1,21 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "General Assembly",
+    "startDate": "Jan, 2024",
+    "endDate": "Apr, 2024",
+    "experiences": ["program focused on product development fundamentals, object-oriented programming", "MVC frameworks, data modeling, and team collaboration strategies"],
+    "imageSrc": "galogo.png",
+    "title": "ga"
+  },
+  {
+    "role": "Logistics & Statutory/Sourcing Analyst",
+    "organisation": "Petronas Carigali",
+    "startDate": "Sep, 2009",
+    "endDate": "Aug, 2023",
+    "experiences": ["Conducted complex analysis of data related to shipment scheduling, routing, and tracking.", "Resolving day-to-day supply chain issues and promoting operational consistency."],
+    "imageSrc": "petronas.png",
+    "title": "pct"
+  }
+  
+]

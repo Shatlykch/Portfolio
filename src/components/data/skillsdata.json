@@ -1,0 +1,50 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "experience/html.svg"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "experience/css.svg"
+  },
+   {
+    "title": "JavaScript",
+    "imageSrc": "experience/javascript.svg"
+  },
+   {
+    "title": "React",
+    "imageSrc": "experience/react.svg"
+  },
+  {
+    "title": "Express",
+    "imageSrc": "experience/express.svg"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "experience/node.svg"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "experience/mongodb.svg"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "experience/sql.svg"
+  },
+   {
+    "title": "Python",
+    "imageSrc": "experience/python.svg"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "experience/django.svg"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "experience/postgresql.svg"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "experience/github.svg"
+  }
+]
