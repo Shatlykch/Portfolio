@@ -41,9 +41,9 @@ const About = () => {
         <card className='acard1'> <img className='alogo' src={galogo} alt='galogo' />
 
           <h3>GENERAL ASSEMBLY | IN-PERSON | New York</h3>
-          <h4>Software Engineering Immersive </h4>
-          <h4>500+ hour Full-stack software engineering program </h4>
-          <h5>January 2024 - April 2024 </h5>
+          <h4>Software Engineering Immersive| 500+ hour Full-stack software engineering program</h4>
+
+          <h4>January 2024 - April 2024 </h4>
         </card>
         <card className='acard2'>
           <img className='alogo1' src={logo} alt='alogo1' />
@@ -51,7 +51,7 @@ const About = () => {
           <h3>STATE INSTITUTE OF MANAGEMENT AND ECONOMY | Ashgabat</h3>
           <h4>Bachelor of Science in Marketing Management and Research </h4>
           <h4>Graduated with a GPA of 4.0/4.0</h4>
-          <h5>September 1995 - June 1999 </h5>
+
         </card>
       </section>
     </>

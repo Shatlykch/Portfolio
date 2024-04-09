@@ -51,7 +51,7 @@
     text-align: center;
     margin: 2.5%;
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .description {
@@ -76,7 +76,7 @@
 
 
 .skill {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     border-radius: 100px;
     background: linear-gradient(180deg, #3e55af 0%, #29549f 100%);
@@ -96,7 +96,7 @@
 .link {
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     border-radius: 100px;
     background: linear-gradient(180deg, #14297a 0%, #132a53 100%);
