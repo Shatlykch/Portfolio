@@ -25,7 +25,7 @@
 .linkedin {
     font-size: 20px;
     color: #fff;
-    letter-spacing: 1cap;
+    /* letter-spacing: 1cap; */
 
 }
 
@@ -46,7 +46,7 @@
 .contactemail {
     font-size: 20px;
     color: #fff;
-    letter-spacing: 1cap;
+    /* letter-spacing: 1cap; */
 
 }
 
@@ -64,7 +64,7 @@
 .github {
     font-size: 20px;
     color: #fff;
-    letter-spacing: 1cap;
+    /* letter-spacing: 1cap; */
 
 
 }
@@ -86,6 +86,7 @@ nav {
 
     width: 50%;
     display: flex;
+    flex-direction: column;
 
 }
 
@@ -111,6 +112,7 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    /* flex-direction: column; */
 
 }
 
@@ -161,17 +163,19 @@ body {
 @media only screen and (max-width: 768px) {
 
 
-    .navbar-links {
+    .navbar-links,
+    ul {
         display: block;
 
         position: absolute;
-        top: 70px;
 
-        left: 0;
-        background-color: #37096e;
+        left: 2%;
+        /* background-color: #37096e; */
         width: 100%;
         z-index: 1;
         padding: 0;
+        flex-direction: column;
+
     }
 
 
@@ -185,5 +189,35 @@ body {
         padding: 10px 0;
         display: block;
         color: #fff;
+        font-size: 15px;
+    }
+
+    .brand-title {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .navbar-links,
+    ul {
+        top: 7px;
+
+    }
+
+    .brand-title {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .navbar-links li a {
+        padding: 6px 0;
+        display: block;
+        color: #fff;
+        font-size: 13px;
+    }
+
+    .social-links {
+        margin-right: -75px;
     }
 }

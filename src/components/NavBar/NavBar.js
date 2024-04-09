@@ -2,8 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbarstyle.css';
 import { Link } from 'react-router-dom';
-import emaillogo from '../../assets/navbar/email.svg';
-import githublogo from '../../assets/navbar/github-icon.svg';
+import emaillogo from '../../assets/navbar/email.png';
+import githublogo from '../../assets/navbar/github-icon.png';
 import linkedinlogo from '../../assets/navbar/linkedin-app-icon.svg';
 
 
@@ -16,7 +16,7 @@ function NavBar () {
       <nav className='navbar'>
         <Link to="/" className='brand-title'>Shatlyk Ch</Link>
 
-        <div>
+        <div className='social-links'>
           <a href='mailto: shatlyk78@gmail.com' target="_blank" rel="noreferrer" className='emaillink'>
             <p className='contactemail'>
               <img src={emaillogo} alt="EmailLogo" className='emaillogo' /> Email

@@ -148,7 +148,7 @@ h4 {
     font-weight: 600;
 }
 
-.aaboutItem p {
+.about {
     font-size: 25px;
     text-align: justify;
     width: 100%;
@@ -178,6 +178,7 @@ h4 {
 
 
 @media screen and (max-width: 830px) {
+
     .acontainer {
         background-color: transparent;
         padding-left: 0;
@@ -199,5 +200,25 @@ h4 {
     .aaboutItem {
         padding-left: 0;
         padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .about {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 20px;
+    }
+
+    .aphotodiv {
+        width: 600px;
+    }
+
+    .acard1 {
+        margin-top: 450px;
+    }
+
+    .acard2 {
+        margin-top: 450px;
     }
 }

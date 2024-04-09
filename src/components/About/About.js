@@ -25,7 +25,7 @@ const About = () => {
               <div className='aaboutItemText'>
                 <h2 className='atitle'>My story</h2>
 
-                <p>
+                <p className='about'>
                   My journey into software engineering was driven by a combination of fascination with technology and a desire for personal and professional growth. While working in the oil and gas industry for the past 15 years, I encountered various challenges related to logistics, supply chain management, and operations optimization. I realized that technology plays a crucial role in addressing these challenges and driving efficiency and innovation in the industry. This realization sparked my interest in software engineering, as I saw it as an opportunity to leverage technology to solve complex problems and make a positive impact.
 
                 </p>
