@@ -14,10 +14,15 @@
     font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
 
+.social-links {
+    display: flex;
+}
+
 .linkedinlogo {
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin-right: 2vh;
+
 
 
 }
@@ -37,8 +42,9 @@
 .emaillogo {
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin-right: 2vh;
     text-decoration: none;
+
 
 }
 
@@ -163,8 +169,7 @@ body {
 @media only screen and (max-width: 768px) {
 
 
-    .navbar-links,
-    ul {
+    .navbar-links {
         display: block;
 
         position: absolute;
@@ -178,6 +183,19 @@ body {
 
     }
 
+    .navbar-links ul {
+        display: block;
+
+        position: absolute;
+
+        left: 2%;
+        /* background-color: #37096e; */
+        width: 100%;
+        z-index: 1;
+        padding: 0;
+        flex-direction: column;
+
+    }
 
     .navbar-links li:hover {
         background-color: rgba(173, 151, 195, 0.764);
@@ -219,5 +237,35 @@ body {
 
     .social-links {
         margin-right: -75px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .navbar-links,
+    ul {
+        top: 1px;
+    }
+
+    .navbar-links li a {
+        padding: 6px 0;
+        display: block;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .brand-title {
+        font-size: 13px;
+        margin: 0 auto;
+    }
+
+    .navbar {
+        padding: 42px;
+    }
+
+    .social-links {
+        /* display: flex;
+        flex-wrap: wrap; */
+        margin: -30px;
     }
 }

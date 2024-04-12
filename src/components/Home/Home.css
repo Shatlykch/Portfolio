@@ -5,6 +5,11 @@
   margin-left: 20px;
 }
 
+.brand {
+  font-size: 20px;
+}
+
+
 .typewriter-text {
   font-family: 'Dancing Script', fantasy;
 
@@ -19,7 +24,7 @@
 }
 
 .animation {
-  width: 53%;
+  width: 400vw;
 }
 
 p {
@@ -55,5 +60,31 @@ p {
   .resume-button {
     font-size: 1.5rem;
     height: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .brand {
+    font-size: 18px;
+    margin-left: -5%;
+  }
+
+  .typewriter-text {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .animation {
+    position: absolute;
+    width: 50vw;
+    margin-left: 20%;
+    margin-top: 88vh;
+  }
+
+  .resume-button {
+    font-size: 1rem;
+    height: 40px;
+    margin-left: 23%;
+    margin-top: 5%;
   }
 }

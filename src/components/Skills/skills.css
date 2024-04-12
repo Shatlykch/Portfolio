@@ -1,3 +1,4 @@
+/* Base styles */
 .scontainer {
     color: white;
     margin-top: 79px;
@@ -17,7 +18,6 @@
 
 .sexperienceItem li {
     font-size: 20px;
-    ;
 }
 
 .scontent {
@@ -32,7 +32,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
-
 }
 
 .sskill {
@@ -76,9 +75,7 @@
     background: #0a1935;
     border-radius: 10px;
     padding: 24px;
-    background-image: linear-gradient(90deg,
-            rgba(165, 215, 232, 0.42) 0%,
-            rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: 0.4s;
@@ -112,15 +109,77 @@
     margin-left: 17px;
 }
 
+/* Responsive styles for screens smaller than 830px */
 @media screen and (max-width: 830px) {
+
+    .scontainer {
+        color: white;
+        margin-top: 79px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .stitle {
+        color: white;
+        font-weight: 700;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 5%;
+        font-size: 1rem;
+    }
+
+    .sexperienceItemDetails h3 {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .sexperienceItem li {
+        font-size: 12px;
+    }
+
+    .sexperienceItemDetails p {
+        font-size: 5px;
+        font-weight: 300;
+    }
+
+    .sexperienceItem {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 17px;
+        background: #0a1935;
+        border-radius: 10px;
+        padding: 24px;
+        background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+        background-size: 0 100%;
+        background-repeat: no-repeat;
+        transition: 0.4s;
+    }
+
+    .sexperienceItemDetails ul {
+        margin-top: 6px;
+        list-style-position: inside;
+        font-size: 10px;
+        list-style-type: disc;
+        margin-left: 17px;
+    }
+
+    .scontainer {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        padding: 0;
+    }
+
     .scontent {
         flex-direction: column;
         align-items: center;
-        gap: 34px;
+        gap: 15px;
     }
 
     .sskills {
-        width: 100%;
+        width: 80%;
         flex-direction: row;
         justify-content: center;
     }
@@ -128,5 +187,43 @@
     .shistory {
         width: 100%;
         gap: 9px;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .sskill p {
+        font-size: 20px;
+    }
+
+    .sskillImageContainer {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sskillImageContainer img {
+        width: 50px;
+    }
+
+    .shistory {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .sexperienceItem {
+        background-size: 100px;
+        width: 100vw;
+        margin-left: -2px;
+    }
+
+    .sexperienceItemDetails p {
+        font-size: 10px;
+    }
+
+    .sexperienceItemDetails h3 {
+        font-size: 15px;
     }
 }

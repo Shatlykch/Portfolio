@@ -31,26 +31,26 @@ function Home () {
 
 
             <br />
-            As an enthusiastic software engineer, I am deeply committed to
-            <br />
-            expanding my coding skills and knowledge. I am passionate
-            <br />
-            about crafting innovative and user-friendly web and mobile
-            <br />
-            applications, and I am actively learning and mastering
-            <br />
-            technologies like JavaScript, React, Node.js, and React
-            <br />
-            Native to achieve this goal. My aim is to deliver high-quality
-            <br />
-            solutions that not only meet client needs but so exceed expectations.
-          </h1>
+            <p className="brand">As an enthusiastic software engineer, I am deeply committed to
+
+              expanding my coding skills and knowledge. I am passionate,
+
+              about crafting innovative and user-friendly web and mobile
+
+              applications, and I am actively learning and mastering
+
+              technologies like JavaScript, React, Node.js, and React
+
+              Native to achieve this goal. My aim is to deliver high-quality
+
+              solutions that not only meet client needs but so exceed expectations.</p >
+          </h1 >
           <button className="resume-button" onClick={openResume}>See my Resume</button>
-        </div>
+        </div >
         <div className="animation">
           <Lottie loop={true} animationData={Animation} />
         </div>
-      </div>
+      </div >
     </>
   );
 }

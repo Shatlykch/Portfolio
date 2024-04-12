@@ -16,34 +16,36 @@ function NavBar () {
       <nav className='navbar'>
         <Link to="/" className='brand-title'>Shatlyk Ch</Link>
 
+
+
+        <div className='navbar-links'>
+          <ul >
+            <li><NavLink to="/home" activeClassName="active">Home</NavLink></li>
+            <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
+            <li><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>
+            <li><NavLink to="/skills" activeClassName="active">Skills</NavLink></li>
+          </ul>
+        </div>
         <div className='social-links'>
           <a href='mailto: shatlyk78@gmail.com' target="_blank" rel="noreferrer" className='emaillink'>
             <p className='contactemail'>
-              <img src={emaillogo} alt="EmailLogo" className='emaillogo' /> Email
+              <img src={emaillogo} alt="EmailLogo" className='emaillogo' />
             </p>
           </a>
           <a href='https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit' target="_blank" rel="noreferrer" className='linkedinlink'>
             <p className='linkedin'>
-              <img src={linkedinlogo} alt="LinkedInLogo" className='linkedinlogo' /> LinkedIn
+              <img src={linkedinlogo} alt="LinkedInLogo" className='linkedinlogo' />
             </p>
           </a>
           <a href='https://github.com/Shatlykch?tab=repositories' target="_blank" rel="noreferrer" className='githublink'>
             <p className='github'>
-              <img src={githublogo} alt="GitHubLogo" className='githublogo' /> GitHub
+              <img src={githublogo} alt="GitHubLogo" className='githublogo' />
             </p>
           </a>
 
 
 
         </div >
-        <div className='navbar-links'>
-          <ul >
-            <li><NavLink exact to="/home" activeClassName="active">Home</NavLink></li>
-            <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
-            <li><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>
-            <li><NavLink to="/skills" activeClassName="active">Skills</NavLink></li>
-          </ul>
-        </div>
       </nav >
 
     </>

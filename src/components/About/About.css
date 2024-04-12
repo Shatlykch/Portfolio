@@ -1,5 +1,10 @@
+.aboutPage {
+    display: flex;
+    flex-direction: column;
+}
+
 .acontainer {
-    position: relative;
+    /* position: relative; */
     background-color: rgba(12, 12, 12, 0.6);
     border-radius: 15px;
     /* padding: 73px;
@@ -29,9 +34,9 @@
 
 .aphoto {
 
-    width: 250px;
-    height: 200%;
-    border-radius: 20px;
+    width: 13vw;
+    /* height: 200%; */
+    border-radius: 5%;
     margin-left: 10%;
     margin-top: 10px;
 
@@ -105,7 +110,7 @@ h4 {
 
 .alogo {
     width: 15%;
-    display: flexbox;
+    display: flex;
 }
 
 .alogo1 {
@@ -116,7 +121,13 @@ h4 {
 .aedu-section {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
 }
 
 .aaboutItem {
@@ -136,12 +147,12 @@ h4 {
     margin-left: 5%;
     margin-right: 5%;
     color: aliceblue;
-    background-color: #0a1935;
+    /* background-color: #0a1935; */
 }
 
-.aaboutItem:hover {
+/* .aaboutItem:hover {
     background-size: 100% 100%;
-}
+} */
 
 .aaboutItem h3 {
     font-size: 25px;
@@ -186,11 +197,8 @@ h4 {
     }
 
     .acontent {
+        display: flex;
         flex-direction: column;
-    }
-
-    .aphoto {
-        display: none;
     }
 
     .aaboutItems {
@@ -201,6 +209,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
 }
 
 @media screen and (max-width: 520px) {
@@ -210,9 +219,9 @@ h4 {
         font-size: 20px;
     }
 
-    .aphotodiv {
-        width: 600px;
-    }
+    /* .aphotodiv {
+        width: 100vw;
+    } */
 
     .acard1 {
         margin-top: 450px;
@@ -220,5 +229,46 @@ h4 {
 
     .acard2 {
         margin-top: 450px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 20px;
+    }
+
+    .aphotodiv {
+        display: flex;
+        justify-content: center;
+        margin-right: 7px;
+        margin-bottom: -60px;
+    }
+
+    .aphoto {
+        width: 100px;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .acard1,
+    .acard2 {
+        width: 100vw;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .atitle,
+    .aedu-title {
+        font-size: 25px;
+    }
+
+    .about {
+        font-size: 15px;
     }
 }
