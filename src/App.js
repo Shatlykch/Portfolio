@@ -6,6 +6,7 @@ import './index.js';
 import Projects from './components/Projects/Projects.js';
 import Skills from './components/Skills/Skills.js'
 import { Routes, Route } from "react-router-dom";
+import Footer from './components/Footer/Footer.js';
 
 
 function App () {
@@ -16,6 +17,7 @@ function App () {
     <main>
 
       <NavBar />
+      <Footer />
 
       <Routes>
         <Route index element={<Home />} />

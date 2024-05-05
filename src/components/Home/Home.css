@@ -24,7 +24,8 @@
 }
 
 .animation {
-  width: 400vw;
+  width: 200vw;
+
 }
 
 p {
@@ -43,14 +44,17 @@ p {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .container {
     padding-left: 5%;
     width: 95%;
   }
 
   .animation {
-    width: 70%;
+    position: absolute;
+    width: 50vw;
+    margin-left: 20%;
+    margin-top: 88vh;
   }
 
   p {

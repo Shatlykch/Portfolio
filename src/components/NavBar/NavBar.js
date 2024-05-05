@@ -2,14 +2,21 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbarstyle.css';
 import { Link } from 'react-router-dom';
-import emaillogo from '../../assets/navbar/email.png';
-import githublogo from '../../assets/navbar/github-icon.png';
-import linkedinlogo from '../../assets/navbar/linkedin-app-icon.svg';
 
 
 
 
 function NavBar () {
+
+  function showSidebar () {
+    const sidebar = document.querySelector( '.sidebar' );
+    sidebar.style.display = 'flex';
+  }
+  function hideSidebar () {
+    const sidebar = document.querySelector( '.sidebar' );
+    sidebar.style.display = 'none';
+  }
+
   return (
     <>
 
@@ -19,33 +26,22 @@ function NavBar () {
 
 
         <div className='navbar-links'>
+          <ul className='sidebar' >
+            <li><NavLink to='#' className='close-button' onClick={hideSidebar}><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg></NavLink></li>
+            <li><NavLink to="/home" className='home-button' activeClassName="active" onClick={hideSidebar}>Home</NavLink></li>
+            <li><NavLink to="/about" activeClassName="active" onClick={hideSidebar}>About</NavLink></li>
+            <li><NavLink to="/projects" activeClassName="active" onClick={hideSidebar}>Projects</NavLink></li>
+            <li><NavLink to="/skills" activeClassName="active" onClick={hideSidebar}>Skills</NavLink></li>
+          </ul>
           <ul >
-            <li><NavLink to="/home" activeClassName="active">Home</NavLink></li>
-            <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
-            <li><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>
-            <li><NavLink to="/skills" activeClassName="active">Skills</NavLink></li>
+            <li><NavLink to="/home" className='hideOnMobile'>Home</NavLink></li>
+            <li><NavLink to="/about" className='hideOnMobile'>About</NavLink></li>
+            <li><NavLink to="/projects" className='hideOnMobile'>Projects</NavLink></li>
+            <li><NavLink to="/skills" className='hideOnMobile'>Skills</NavLink></li>
+            <li className='menu-button'><NavLink to='#' onClick={showSidebar}><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" /></svg></NavLink></li>
+
           </ul>
         </div>
-        <div className='social-links'>
-          <a href='mailto: shatlyk78@gmail.com' target="_blank" rel="noreferrer" className='emaillink'>
-            <p className='contactemail'>
-              <img src={emaillogo} alt="EmailLogo" className='emaillogo' />
-            </p>
-          </a>
-          <a href='https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit' target="_blank" rel="noreferrer" className='linkedinlink'>
-            <p className='linkedin'>
-              <img src={linkedinlogo} alt="LinkedInLogo" className='linkedinlogo' />
-            </p>
-          </a>
-          <a href='https://github.com/Shatlykch?tab=repositories' target="_blank" rel="noreferrer" className='githublink'>
-            <p className='github'>
-              <img src={githublogo} alt="GitHubLogo" className='githublogo' />
-            </p>
-          </a>
-
-
-
-        </div >
       </nav >
 
     </>

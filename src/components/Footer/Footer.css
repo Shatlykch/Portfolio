@@ -1,0 +1,77 @@
+.footer {
+    background-color: #37096e;
+    color: rgb(72, 30, 74);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 25px 0;
+    column-gap: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+.linkedinlogo {
+    width: 30px;
+    height: 30px;
+    margin-right: 2vh;
+
+
+
+}
+
+.linkedin {
+    font-size: 20px;
+    color: #fff;
+    /* letter-spacing: 1cap; */
+
+}
+
+.linkedinlink {
+    text-decoration: none;
+}
+
+
+.emaillogo {
+    width: 30px;
+    height: 30px;
+    margin-right: 2vh;
+    text-decoration: none;
+
+
+}
+
+
+.contactemail {
+    font-size: 20px;
+    color: #fff;
+    /* letter-spacing: 1cap; */
+
+}
+
+.emaillink {
+    text-decoration: none;
+}
+
+.githublogo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+.github {
+    font-size: 20px;
+    color: #fff;
+    /* letter-spacing: 1cap; */
+
+
+}
+
+.githublink {
+    text-decoration: none;
+}
