@@ -1,6 +1,5 @@
 import './About.css'
 import aboutMeImage from "../../assets/about/photo.jpg";
-import cursorIcon from '../../assets/about/cursorIcon.png'
 import logo from '../../assets/about/logo.png';
 import galogo from '../../assets/about/galogo.png'
 import React from "react";
